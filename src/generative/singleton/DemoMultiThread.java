@@ -10,11 +10,11 @@ public class DemoMultiThread {
         System.out.println("If you see different values, then 2 singletons were created (booo!!)");
         System.out.println("Result:");
 
-        Thread theadFoo =  new Thread(new ThreadFoo());
-        Thread theadBar=  new Thread(new ThreadBar());
+        Thread threadFoo =  new Thread(new ThreadFoo());
+        Thread threadBar=  new Thread(new ThreadBar());
 
-        theadFoo.start();
-        theadBar.start();
+        threadFoo.start();
+        threadBar.start();
 
 
 
